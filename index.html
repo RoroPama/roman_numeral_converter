@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertisseur en Chiffres Romains</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convertisseur en Chiffres Romains</h1>
+
+      <p class="description">
+        Entrez un nombre entre 1 et 3999 pour obtenir sa représentation en
+        chiffres romains.
+      </p>
+
+      <div class="input-container">
+        <input type="number" id="number" placeholder="Entrez un nombre" />
+      </div>
+
+      <button id="convert-btn">Convertir</button>
+
+      <div id="output"></div>
+
+      <div class="info-section">
+        <h3>Symboles romains</h3>
+        <div class="roman-table">
+          <div class="roman-pair">
+            <div class="roman-symbol">I</div>
+            <div class="roman-value">1</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">V</div>
+            <div class="roman-value">5</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">X</div>
+            <div class="roman-value">10</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">L</div>
+            <div class="roman-value">50</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">C</div>
+            <div class="roman-value">100</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">D</div>
+            <div class="roman-value">500</div>
+          </div>
+          <div class="roman-pair">
+            <div class="roman-symbol">M</div>
+            <div class="roman-value">1000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
